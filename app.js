@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 80;
 
 
 //socket
-const port = process.env.port || 4000;
+const port = process.env.port || 80;
 
 
 //const PORT = 8080;
@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({extended:true }));
 app.use(express.static('public'));
 
 app.listen(port, function () {
-    console.log("server running at "+port);
+    console.log("server running at "+80);
 });
 
 

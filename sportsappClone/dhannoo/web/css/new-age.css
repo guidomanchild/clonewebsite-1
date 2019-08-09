@@ -160,8 +160,8 @@ header.masthead {
   background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
   */
   background: url("../img/bg-pattern.png"), #00557A;
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #762b90, #762b90 20%, #762b90, #762b90 80%);
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #762b90, #762b90 20%, #762b90, #762b90 80%);
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #2368c0, #2368c0 50%, #2bbf8e, #2bbf8e 50%);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #2368c0, #2368c0 5%, #2bbf8e, #2bbf8e 100%);
 
 }
 

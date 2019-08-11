@@ -32,7 +32,7 @@ app.get('/', function (req, res) {
 
 
 app.get('/share/*', function (req, res) {
-    res.send("all the things");
+  res.sendFile(__dirname+"/sportsappClone/dhannoo/web/index.html")
 });
 
 app.get('/:one/:two',function(req,res){

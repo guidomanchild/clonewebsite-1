@@ -31,6 +31,9 @@ app.get('/', function (req, res) {
 });
 
 
+app.get('/share/*', function (req, res) {
+    res.send("all the things");
+});
 
 app.get('/:one/:two',function(req,res){
   console.log(req.params.two)

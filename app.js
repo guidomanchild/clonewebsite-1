@@ -32,7 +32,8 @@ app.get('/', function (req, res) {
 
 
 app.get('/share/*', function (req, res) {
-  res.sendFile(__dirname+"/sportsappClone/dhannoo/web/index.html")
+  res.redirect("https://play.google.com/store/apps/details?id=com.mike.vostmeproto3");
+  // res.sendFile(__dirname+"/sportsappClone/dhannoo/web/index.html")
 });
 
 app.get('/:one/:two',function(req,res){
